@@ -8,15 +8,8 @@ extends CharacterBody3D
 var target_velocity = Vector3.ZERO
 
 
-# Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta):
-	$virid6/AnimationPlayer.play("RUN")
-
-
 
 func _physics_process(delta):
-	
-	
 	
 	var direction = Vector3.ZERO
 	direction.z -= 1
